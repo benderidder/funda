@@ -1,6 +1,8 @@
 ﻿namespace BdR.Funda.ProgrammingAssignment.Model
 {
-    // POCO to hold reportable information
+    /// <summary>
+    /// Reporting object to hold reportable information
+    /// </summary>
     internal class RealEstateAgent
     {
         public string Name { get; set; } = String.Empty;
