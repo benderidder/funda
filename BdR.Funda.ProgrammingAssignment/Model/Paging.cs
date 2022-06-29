@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BdR.Funda.ProgrammingAssignment.Model
+﻿namespace BdR.Funda.ProgrammingAssignment.Model
 {
+    /// <summary>
+    /// Paging object is part of collection calls and is necessary to retrieve all objects from all pages
+    /// </summary>
     internal class Paging
     {
         public int AantalPaginas { get; set; } = 1;

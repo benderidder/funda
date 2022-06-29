@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BdR.Funda.ProgrammingAssignment.Model
+﻿namespace BdR.Funda.ProgrammingAssignment.Model
 {
+    /// <summary>
+    /// POCO that acts as main container for the json returned by the Funda API
+    /// </summary>
     internal class PurchaseObjectCollection
     {
         public string Titel { get; set; } = string.Empty;
