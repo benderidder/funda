@@ -8,7 +8,7 @@ namespace BdR.Funda.ProgrammingAssignment
     /// </summary>
     internal class FundaAPIClient
     {
-        private const string API_KEY = "ac1b0b1572524640a0ecc54de453ea9f";
+        private const string API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         private const string BASE_URI = "http://partnerapi.funda.nl/feeds";
 
         /// <summary>
